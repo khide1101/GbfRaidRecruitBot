@@ -1,13 +1,18 @@
-# 【 Discord Bot 】募集Bot
+# 【 Discord Bot 】グラブル募集テンプレbot
 
+## bot招待URL
+https://discordapp.com/oauth2/authorize?client_id=549845655963697167&scope=bot&permissions=0
+Heroku無料プランで運用してます。
+無料プラン超過したら僕のbotURLは公開控えます。
+ソースコードは公開しとくのでご自由にどうぞ。
 
 ### 使い方
-1. サーバーにbotを招待します。(https://discordapp.com/oauth2/authorize?client_id=549845655963697167&scope=bot&permissions=0)
-2. コマンドを打つと、botがテンプレ募集文を出力します。
+1. サーバーにbotを招待します。
+2. 誰かがコマンドを打つと、botがテンプレ募集文を発言します。
 
 ### コマンド
 
-コマンド構成
+構成
 ```
 /bosyu {募集タイトル}!{開催時}@{人数}
 ```
@@ -21,9 +26,14 @@
 /bosyu ヒヒの落ちるアルバハ!23時@6
 ```
 
+----------
+
 ### 開発者用
+
 1. リポジトリclone
 2. Install：`> npm install`
 3. DiscordDevでアプリ登録してbot作ってアクセストークンを取ってくる。
 4. `.env.sample`にアクセストークンを記述。`.env`にリネーム
 5. `> npm start` でforeverを利用して常駐起動
+
+

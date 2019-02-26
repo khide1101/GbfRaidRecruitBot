@@ -15,7 +15,7 @@ client.on('ready', () => console.log('ready...'));
 client.on('message', message =>{
     if(message.author.bot) return;
 
-    if (message.content.match(/^\/bosyu/)) {
+    if (message.content.match(/^\/rr/)) {
 
         const sendMessage = MessageBuilder.build(message.content);
         message.channel.send(sendMessage);

@@ -6,7 +6,7 @@ class MessageBuilder {
     }
 
     static _removeCommandPart(str) {
-        return str.replace('/bosyu ', '').trim();
+        return str.replace('/rr ', '').trim();
     }
 
     static _parseMessage(str) {
