@@ -1,0 +1,21 @@
+{
+  "name": "raidrecruitbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever --uid raidrecruitbot_server -a start ./app.js",
+    "restart": "forever --uid raidrecruitbot_server -a restart ./app.js",
+    "stop": "forever --uid raidrecruitbot_server -a stop ./app.js",
+    "forever": "forever"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "dotenv": "^6.2.0"
+  },
+  "devDependencies": {
+    "forever": "^0.15.3"
+  }
+}
