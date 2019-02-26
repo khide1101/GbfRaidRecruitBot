@@ -3,7 +3,7 @@
 ## bot招待URL
 https://discordapp.com/oauth2/authorize?client_id=549845655963697167&scope=bot&permissions=0
 
-<br><br>
+<br>
 Heroku無料プランで運用してます。<br>
 無料プラン超過したら僕のbotURLは公開控えます。<br>
 ソースコードは公開しとくのでご自由にどうぞ。<br>
